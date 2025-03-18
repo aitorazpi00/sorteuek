@@ -1,19 +1,19 @@
 const CACHE_NAME = 'my-app-cache-v1';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/styles.css',
-  '/manifest.json',
-  '/service-worker.js',
-  '/main.js',
-  '/bote_script.js',
-  '/script.js',
-  '/public/parejak.html',
-  '/public/sorteo.html',
-  '/images/icon-192x192.png',
-  '/images/icon-512x512.png',
-  '/images/screenshot-1280x720.png',
-  '/images/screenshot-1920x1080.png'
+  '/sorteuek/index.html',
+  '/sorteuek/styles.css',
+  '/sorteuek/manifest.json',
+  '/sorteuek/service-worker.js',
+  '/sorteuek/main.js',
+  '/sorteuek/bote_script.js',
+  '/sorteuek/script.js',
+  '/sorteuek/public/parejak.html',
+  '/sorteuek/public/sorteo.html',
+  '/sorteuek/images/icon-192x192.png',
+  '/sorteuek/images/icon-512x512.png',
+  '/sorteuek/images/screenshot-1280x720.png',
+  '/sorteuek/images/screenshot-1920x1080.png'
 ];
 
 // Instalación del Service Worker
