@@ -1,4 +1,7 @@
-let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 'Una', 'Bersa', 'Etxe', 'Carrizo'];
+// let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 'Una', 'Bersa', 'Etxe', 'Carrizo'];
+
+const pertsonak = JSON.parse(localStorage.getItem('pertsonak'));
+
 
 // Función para mezclar el array
 function shuffleArray(array) {
@@ -12,7 +15,8 @@ function shuffleArray(array) {
 // Función para mezclar y mostrar los valores
 function shuffleAndDisplay() {
     // Crear una copia del array original para mezclar
-    const shuffledValues = [...muslayek];
+    // const shuffledValues = [...muslayek];
+    const shuffledValues = [...pertsonak];
     
     // Mezclar el array
     shuffleArray(shuffledValues);
