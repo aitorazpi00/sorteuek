@@ -13,7 +13,7 @@ let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 
 
 let ekipokuk = ['Alex', 'Arraio Jr', 'Arraio', 'Arru', 'Arka', 'Thor', 'Carrizo', 'Elortxa', 'Eritz', 
   'Gaitan', 'Garate', 'Estevez', 'Etxe', 'Joxe', 'Javi', 'Leta', 'Juan Mari', 'Patxi',
-  'Noga', 'Pablo', 'Peña', 'Luken', 'Uranga', 'Josu', 'Tximi'
+  'Noga', 'Pablo', 'Peña', 'Luken', 'Uranga', 'Josu', 'Tximi', 'Azpe', 'Ibai', 'Urko'
 ]
 
 function sorteue_elegiu(zein){
