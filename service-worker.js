@@ -2,6 +2,7 @@ const CACHE_NAME = 'my-app-cache-v1';
 const urlsToCache = [
   '/',
   '/sorteuek/index.html',
+  '/sorteuek/pertsonak.html',
   '/sorteuek/styles.css',
   '/sorteuek/manifest.json',
   '/sorteuek/service-worker.js',
