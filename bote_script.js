@@ -91,23 +91,7 @@ function getRandomNames(namesArray, x) {
     var shuffled = namesArray.sort(() => Math.random() - 0.5);
     var shuffled_array = shuffled.slice(0, x)
     const check = verifyArray(shuffled_array);
-    if(check){
-        shuffleArray(shuffled);
-    }
     return shuffled.slice(0, x);
-}
-
-function verifyArray(names){
-    for(var i=0; i < names.length; i++){
-        if(verifyName(names[i]))
-            return true;
-    }
-    return false;
-}
-
-function verifyName(name){
-    var lett = name.split('');
-    return lett[name.length-1] == "r"
 }
 
 function sorteo_boteruek(){
