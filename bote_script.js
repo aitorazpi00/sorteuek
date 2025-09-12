@@ -1,7 +1,4 @@
-// let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 'Una', 'Bersa', 'Etxe', 'Carrizo'];
-
-const pertsonak = JSON.parse(localStorage.getItem('pertsonak'));
-
+let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 'Una', 'Bersa', 'Etxe', 'Carrizo'];
 
 // Función para mezclar el array
 function shuffleArray(array) {
@@ -15,8 +12,7 @@ function shuffleArray(array) {
 // Función para mezclar y mostrar los valores
 function shuffleAndDisplay() {
     // Crear una copia del array original para mezclar
-    // const shuffledValues = [...muslayek];
-    const shuffledValues = [...pertsonak];
+    const shuffledValues = [...muslayek];
     
     // Mezclar el array
     shuffleArray(shuffledValues);
@@ -89,8 +85,8 @@ function getRandomNames(namesArray, x) {
         throw new Error("El número solicitado es mayor que la cantidad de nombres disponibles.");
     }
     var shuffled = namesArray.sort(() => Math.random() - 0.5);
-    var shuffled_array = shuffled.slice(0, x)
-    const check = verifyArray(shuffled_array);
+    // var shuffled_array = shuffled.slice(0, x)
+    // const check = verifyArray(shuffled_array);
     return shuffled.slice(0, x);
 }
 

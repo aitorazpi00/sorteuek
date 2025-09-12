@@ -1,7 +1,5 @@
 
-//let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 'Una', 'Bersa', 'Etxe', 'Carrizo'];
-
-const pertsonak = JSON.parse(localStorage.getItem('pertsonak'));
+let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 'Una', 'Bersa', 'Etxe', 'Carrizo'];
 
 // Función para mezclar el array
 function shuffleArray(array) {
@@ -15,8 +13,7 @@ function shuffleArray(array) {
 // Función para mezclar y mostrar los valores
 function shuffleAndDisplay() {
     // Crear una copia del array original para mezclar
-    // const shuffledValues = [...muslayek];
-    const shuffledValues = [...pertsonak];
+    const shuffledValues = [...muslayek];
     
     // Mezclar el array
     shuffleArray(shuffledValues);
@@ -257,9 +254,6 @@ function parejak_izenak_in(parejasArray){
 
     return nombresEquipos;
 }
-
-
-
 
 
 // Llama a la función con la lista de nombres de equipos
