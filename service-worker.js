@@ -1,4 +1,4 @@
-const CACHE_NAME = 'my-app-cache-v1';
+const CACHE_NAME = 'sorteathor-v1';
 const urlsToCache = [
   '/',
   '/sorteuek/index.html',
