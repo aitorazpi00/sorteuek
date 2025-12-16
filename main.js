@@ -10,6 +10,12 @@ if ("serviceWorker" in navigator) {
 }
 
 function sorteue_elegiu(zein){
-  window.location.href='/sorteuek/public/' + encodeURIComponent(zein) + '.html';
+  if (zein === "sorteo"){
+    window.location.href='/sorteuek/public/pertsonak_elegiu.html';
+  }else
+    window.location.href='/sorteuek/public/' + encodeURIComponent(zein) + '.html';
 }
 
+function pertsonak_aukerau(zein){
+  window.location.href='/sorteuek/public/sorteo.html?pertsonak='+zein;
+}

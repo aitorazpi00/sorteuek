@@ -1,4 +1,13 @@
+const params = new URLSearchParams(window.location.search);
+const pertsonak = params.get('pertsonak');
+
 let muslayek = ['Thor', 'Gorka', 'Ame', 'Zabarte', 'Merino', 'Txiki', 'Umerez', 'Una', 'Bersa', 'Etxe', 'Carrizo'];
+let boteruek_neskakin = muslayek.concat(['Miren E', 'Maider', 'Sara', 'Leire', 'Araitz', 'Ania', 'Miren Z', 'Aiora', 'Mikele', 'Libe', 'Inge', 'Garazi']);
+
+var sorteoko_pertsonak = muslayek
+if (pertsonak == "dandelus"){
+    sorteoko_pertsonak = boteruek_neskakin
+}
 
 // Función para mezclar el array
 function shuffleArray(array) {
@@ -12,7 +21,7 @@ function shuffleArray(array) {
 // Función para mezclar y mostrar los valores
 function shuffleAndDisplay() {
     // Crear una copia del array original para mezclar
-    const shuffledValues = [...muslayek];
+    const shuffledValues = [...sorteoko_pertsonak];
     
     // Mezclar el array
     shuffleArray(shuffledValues);
